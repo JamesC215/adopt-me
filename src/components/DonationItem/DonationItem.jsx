@@ -1,3 +1,4 @@
+import './DonationItem.css';
 
 export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
   return (

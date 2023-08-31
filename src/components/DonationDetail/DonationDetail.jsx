@@ -1,5 +1,5 @@
-import './OrderDetail.css';
-import LineItem from '../LineItem/LineItem';
+import './DonationDetail.css';
+import LineItem from '../DonationItem/DonationItem';
 
 // Used to display the details of any order, including the cart (unpaid order)
 export default function OrderDetail({ order, handleChangeQty, handleCheckout }) {
@@ -43,7 +43,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
             </section>
           </>
           :
-          <div className="hungry">Hungry?</div>
+          <div>Thank you!</div>
         }
       </div>
     </div>

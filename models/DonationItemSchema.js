@@ -1,6 +1,6 @@
 const Schema = require('mongoose').Schema;
 
-const itemSchema = new Schema({
+const donationItemSchema = new Schema({
   name: { type: String, required: true },
   category: {type: Schema.Types.ObjectId, ref: 'Category'},
   price: { type: Number, required: true }
@@ -8,4 +8,4 @@ const itemSchema = new Schema({
   timestamps: true
 });
 
-module.exports = itemSchema;
+module.exports = donationItemSchema;

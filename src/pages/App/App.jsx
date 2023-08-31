@@ -1,10 +1,12 @@
 import {useState} from 'react'
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
+import Payment from '../../Payment';
+import Completion from '../../Completion';
 
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
-import NewOrderPage from '../NewOrderPage/NewOrderPage';
+import NewOrderPage from '../NewDonationPage/NewDonationPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
 
@@ -19,11 +21,13 @@ import NavBar from '../../components/NavBar/NavBar';
         <Routes> 
           <Route path='/orders/new' element={<NewOrderPage/>} />
           <Route path='/orders' element={<OrderHistoryPage/>} />
-        </Routes> 
+          <Route path='/' element={<Payment />} />
+          <Route path='/completion' element={<Completion />} />
+        </Routes>
       </>
         :
         <AuthPage setUser={setUser}/>
-    }
+      }
     </main>
   );
   
