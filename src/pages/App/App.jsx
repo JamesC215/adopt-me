@@ -1,8 +1,8 @@
 import {useState} from 'react'
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
-import Payment from '../../Payment';
-import Completion from '../../Completion';
+import Payment from '../../components/Payment/Payment';
+import Completion from '../../components/CompletionPage/Completion';
 
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';

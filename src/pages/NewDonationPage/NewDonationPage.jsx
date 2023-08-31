@@ -49,7 +49,7 @@ export default function NewOrderPage({ user, setUser }) {
 
   async function handleCheckout() {
     await donationsAPI.checkout();
-    navigate('/orders');
+    navigate('/');
   }
 
 

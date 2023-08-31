@@ -8,9 +8,13 @@
   --tan-2: #E7E2DD;
   --tan-3: #E2D9D1;
   --tan-4: #D3C1AE;
-  --orange: #F67F00;
+  --orange: #1b1357;
   --text-light: #968c84;
   --text-dark: #615954;
+  --light-grey: #f6f9fc;
+  --dark-terminal-color: #0a2540;
+  --accent-color: #635bff;
+  --radius: 3px;
 }
 
 *, *:before, *:after {
@@ -93,12 +97,12 @@ p.error-message {
   text-align: center;
 }
 
-form {
+/* form {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1.25vmin;
   color: var(--text-light);
-}
+} */
 
 label {
   font-size: 2vmin;
@@ -153,4 +157,24 @@ button:disabled, form:invalid button[type="submit"] {
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
+  justify-content: center;
 }
+/* #payment-form {
+  border: #f6f9fc solid 1px;
+  border-radius: var(--radius);
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 30px 50px -20px rgb(50 50 93 / 25%),
+    0 30px 60px -30px rgb(0 0 0 / 30%);
+}
+
+#messages {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  display: none;
+  background-color: #0a253c;
+  color: #00d924;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: var(--radius);
+  font-size: 0.7em;
+} */
