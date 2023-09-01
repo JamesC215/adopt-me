@@ -17,9 +17,9 @@
   --radius: 3px;
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
@@ -124,7 +124,7 @@ input:focus {
   border-color: var(--orange);
 }
 
-button, a.button {
+a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);

@@ -1,0 +1,13 @@
+* {
+    text-align: center;
+}
+main.AuthPage {
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+div.form-container {
+    margin-top: 10px;
+
+}
