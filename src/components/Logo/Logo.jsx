@@ -5,8 +5,8 @@ export default function Logo() {
     <>
     <div className="Logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6s0JWBOdDDpwMyelLfxBmjBrd3leLAq73rQ&usqp=CAU" alt="" />
+      <p>4Paws</p>
     </div>
-    <p>4Paws</p>
     </>
   );
 }

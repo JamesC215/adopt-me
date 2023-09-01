@@ -1,15 +1,16 @@
 .Logo {
-  height: 12vmin;
+  padding-top: 19px;
+  height: 10vmin;
   width: 12vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--orange);
   color: var(--tan-1);
   font-size: 2.7vmin;
+
 }
 img {
-  border-radius: 50%;
+  border-radius: 40%;
 }

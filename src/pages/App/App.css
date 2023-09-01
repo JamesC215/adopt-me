@@ -54,3 +54,6 @@
   border-radius: var(--radius);
   font-size:0.7em;
 }
+main.AuthPage {
+  margin-bottom: 10px;
+}
