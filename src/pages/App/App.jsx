@@ -39,8 +39,8 @@ import { dogs } from '../../dogs';
         :
         <>
         <Logo />
-        <Homepage/>
         <AuthPage setUser={setUser}/>
+        <Homepage/>
         </>
       }
     </main>
