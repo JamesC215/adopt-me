@@ -226,7 +226,7 @@ There are currently no known bugs that I am aware of.
 Upon completion of the project, I had several things I wanted to implement but I either did not have the time or the technical ability to do so.
 
 These include:
-- Adding a SuperUser that can add new Dog Profiles
-- Edit/Deletion of Dog Profiles
+- Adding a SuperUser that can add new Dog Profiles and also edit/delete them.
+- Allow users to add comments to the Dog Profile pages.
 - Media queries for phones, tablets, smaller screens etc.
 - To make the website look more professional, using both CSS and Tailwind.
