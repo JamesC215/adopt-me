@@ -89,7 +89,7 @@ For the majority of the planning stage, I used a Trello Board with all of the in
 ### Find below a screenshot of an example of one of my wireframes:
 To create my wireframes, I used [Lucid.com](https://www.lucidchart.com/pages/).
 
-<img width="1354" alt="Screenshot 2023-07-14 at 16 33 18" src="https://github.com/JamesC215/RESTful-Routes/assets/136309778/703e2aa0-f18c-49d0-bf7b-373a7211fde2">
+<img width="548" alt="Screenshot 2023-08-25 at 16 17 10" src="https://github.com/JamesC215/adopt-me/assets/136309778/ef5074be-20b9-4d15-957d-41af6c94ce66">
 
 ### See below a screenshot of my Trello Board:
 To create this, I used [Trello.com](https://trello.com/).
@@ -102,7 +102,7 @@ Here is a link to my planning page: [Trello - 4Paws](https://trello.com/b/WIdGEX
 ### Please see a screenshot of my ERD below:
 To create my ERD, I used [Lucid.com](https://www.lucidchart.com/pages/).
 
-<img width="952" alt="Screenshot 2023-07-14 at 15 31 24" src="https://github.com/JamesC215/RESTful-Routes/assets/136309778/2b9c7328-70b1-44a9-a0c1-32f72a9b0d0b">
+<img width="679" alt="Screenshot 2023-09-04 at 03 35 29" src="https://github.com/JamesC215/adopt-me/assets/136309778/27bbf7d8-4638-46ec-b66e-281b6e66b985">
 
 ## Build/Code Process
 
@@ -118,7 +118,7 @@ We had also previously created a basic foundation for Login/Signup and Logout fu
 
 ### At this stage, this is what my app looked like: 
 
-<img width="1274" alt="Screenshot 2023-07-20 at 11 27 56" src="https://github.com/JamesC215/RESTful-Routes/assets/136309778/546f4e79-3dd9-4c78-89b7-b622e983e7c4">
+<img width="1114" alt="Screenshot 2023-09-01 at 13 53 05" src="https://github.com/JamesC215/adopt-me/assets/136309778/06410346-7ef2-4a39-9e81-9a28e0594499">
 
 Then, I moved onto adding features to my app, of which the creating a component to render a list of the dogs that I would like to show on the website came first:
 
@@ -139,6 +139,7 @@ const dogs = Dog.create([
       description: "I am a Pug"
     }]);
 ```
+<img width="1152" alt="Screenshot 2023-09-01 at 13 53 40" src="https://github.com/JamesC215/adopt-me/assets/136309778/e54669a5-4913-4e4b-8fbb-58e4dbef105f">
 
 I then wanted to implement a donation page, allowing users to add donation items or money and donate said items/money.
 
@@ -198,10 +199,6 @@ export default function Payment(props) {
 With all of these methods, I had my MVP.
 
 I then went on to styling through CSS and Tailwind, but I did not get as much done as I had hoped.
-
-### This is what my app looked like upon completion:
-
-<img width="1416" alt="Screenshot 2023-07-21 at 01 21 59" src="https://github.com/JamesC215/RESTful-Routes/assets/136309778/7ab135de-cf28-471a-8b3d-865889cd328d">
 
 ## Challenges
 
