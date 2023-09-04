@@ -11,9 +11,7 @@ export default function NavBar({ user, setUser }){
     return (
         <>
         <nav className='navbar'>
-            <span>Welcome, {user.name} </span>
-            &nbsp; | &nbsp; 
-            <Link to="/orders/new">DONATE</Link>
+            <span>Logged in as User: {user.name} </span>
             &nbsp;&nbsp; <Link to="" onClick={handleLogOut}>Log Out</Link> 
         </nav>
         </>

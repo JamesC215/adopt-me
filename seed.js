@@ -10,13 +10,13 @@ const dogs = Dog.create([
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEZT6AXoakxCOiAeakMNPanLJjPbGnHMVsA&usqp=CAU",
     age: 8,
     name: "Zeus",
-    description: "I am a German Shepherd"
+    description: "I am a German Shepherd who is getting on a bit, but still has lots of energy! I am good with dogs and children, but I require arthiritis medication for my back legs... they're not what they used to be!"
   },
     {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt89nu5HcX65UCAUlQG6ZRP6UDiqelNSnTJg&usqp=CAU",
       age: 5,
       name: "Freddie",
-      description: "I am a Pug"
+      description: "I am a Pug and thus make a great family pet for anyone! My last owner was an older lady who just liked letting me out in the garden, but I love a longer walk, too. I have a few food allergies and will need a special diet catered for. "
     }]);
 
 (async function() {

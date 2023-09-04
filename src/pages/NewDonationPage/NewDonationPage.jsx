@@ -54,7 +54,6 @@ export default function NewOrderPage({ user, setUser }) {
           activeCat={activeCat}
           setActiveCat={setActiveCat}
           />
-        <UserLogOut user={user} setUser={setUser} />
         </header>
       <MenuList
         menuItems={menuItems.filter(item => item.category.name === activeCat)}

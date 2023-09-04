@@ -22,9 +22,11 @@ import { dogs } from '../../dogs';
     <main> 
       { user ? 
       <>
-      <NavButtons />
+      <header className='logo'>
       <Logo />
+      </header>
       <NavBar user={user} setUser={setUser}/>
+      <NavButtons />
         <Routes> 
         <Route path="/" element={<MoviePage dogs={dogs} />} />
             <Route
@@ -38,9 +40,11 @@ import { dogs } from '../../dogs';
       </>
         :
         <>
+        <header className='logo'>
         <Logo />
-        <AuthPage setUser={setUser}/>
+        </header>
         <Homepage/>
+        <AuthPage setUser={setUser}/>
         </>
       }
     </main>

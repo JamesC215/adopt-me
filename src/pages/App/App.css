@@ -46,7 +46,7 @@
 
 #messages {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
-  display: none; /* hide initially, then show once the first message arrives */
+  display: none;
   background-color: #0A253C;
   color: #00D924;
   padding: 20px;
@@ -54,6 +54,14 @@
   border-radius: var(--radius);
   font-size:0.7em;
 }
-main.AuthPage {
-  margin-bottom: 10px;
+header.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100px;      
+  margin-bottom: 30px;    
+}
+nav {
+  color: white;
+  align-items: end;
 }
