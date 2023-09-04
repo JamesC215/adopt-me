@@ -96,8 +96,7 @@ To create this, I used [Trello.com](https://trello.com/).
 
 Here is a link to my planning page: [Trello - 4Paws](https://trello.com/b/WIdGEXq2/sei-project-4-pet-adoption).
 
-<img width="1427" alt="Screenshot 2023-07-20 at 11 25 34" src="https://github.com/JamesC215/RESTful-Routes/assets/136309778/f2914ed0-730f-4cec-91c1-802aa81e517d">
-
+<img width="1382" alt="Screenshot 2023-09-04 at 03 40 42" src="https://github.com/JamesC215/adopt-me/assets/136309778/d3519ab2-8900-485a-988b-218160cd74cd">
 
 ### Please see a screenshot of my ERD below:
 To create my ERD, I used [Lucid.com](https://www.lucidchart.com/pages/).
@@ -212,7 +211,9 @@ Implementing Stripe into my Project was a big win, as I had not previously imple
 
 ## Key Learnings/Takeaways
 
-Passing props into different components was quite a tricky part of using React,
+In future, I would endeavour to style each page/component as and when I create them, which would make the CSS a lot easier to manage than have to do it in one big chunk at the end.
+
+I found passing props into different components was quite a tricky part of using React and so learning more about this topic would be helpful for the future.
 
 I know now I need to be a bit more proactive when I am coding, as I get stuck on one section for a long while, whereas I find I should leave it alone and go and do other things to refresh myself and hopefully find a solution when I return to the problem.
 
