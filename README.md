@@ -107,7 +107,7 @@ To create my ERD, I used [Lucid.com](https://www.lucidchart.com/pages/).
 
 To begin my build, I started by creating a React app using ``` npx create-react-app ```.
 
-I then installed all of the relevant packages I would need by running the command npm (Node Package Manager) to install what I needed, such as Mongoose, Google OAuth and Method_Override.
+I then installed all of the relevant packages I would need by running the command npm (Node Package Manager) to install what I needed, such as Mongoose, Stripe, Tailwind.css etc.
 
 Upon completion of installing the relevant packages, I initialised my database through a .env file, and passed it into a config folder that included a database file.
 
